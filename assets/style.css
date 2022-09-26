@@ -1,0 +1,337 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    min-width: 700px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#09203F,#537895); 
+    height: 100px;
+    
+}
+
+.container{
+    
+    max-width: 1516px;
+    
+}
+
+.h1{
+    font-size: 12px;
+    background: linear-gradient(#A1C4FD , #C2E9FB );
+    width: 300px;
+    text-align: right;
+    font-weight: lighter;
+    color: navy;
+    padding: 10px;
+}
+
+nav a{
+padding-right: 10px;
+color: #A1C4FD;
+}
+
+nav :hover{
+    color: white;
+}
+
+.header{
+
+    font-style: italic;
+    padding-right: 20px;
+    font-size: 20px;
+
+}
+
+.image{
+    
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    background-image: url(/assets/images/coding\ 5.39.28\ PM.jpeg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.sub{
+    
+    font-size: 30px;
+    margin: 0 40px 30px 0;
+    background-color: aquamarine;
+
+
+}
+
+#About{
+    
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.h2-about{
+
+    width: 20%;
+    font-size: 30px;
+    text-align: right;
+    border-right: solid black;
+    margin: 0 30px 0 60px;
+    padding-right:2.5%;
+    box-sizing: border-box;
+    
+    
+
+}
+
+.text{
+    width: 80%;
+    margin-top: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+
+/* ------main section--------- */
+
+.main{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+
+
+
+#work {
+    width: 20%;
+    font-size: 30px;
+    text-align: right;
+    border-right: solid black;
+    padding-right: 2.5%;
+    margin: 0 30px 0 60px;
+    box-sizing: border-box;
+}
+
+
+.section{
+    padding-left: 60px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+
+
+.surf-report{
+    position: relative;
+    border: 2px solid black;
+    background-image: url(/assets/images/stack.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    width: 44em;
+    height: 25rem;
+    
+}
+
+
+.led-wall{
+    position: relative;
+    border: 3px solid black;
+    height: 10em;
+    width: 22rem;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/assets/images/Node.avif);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.calculator{
+    position: relative;
+    border: 2px solid black;
+    height: 10em;
+    width: 21rem;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/assets//images/calculator.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pastel-puzzels{
+    position: relative;
+    border: 2px solid black;
+    height: 10em;
+    width: 22rem;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/assets/images/puzzels.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.horiseon{
+    position: relative;
+    border: 2px solid black;
+    height: 10em;
+    width: 21rem;
+    margin-top: 10px;
+    margin-right: 15px;
+    background-image: url(/assets//images/horiseon.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-surf, .text-led, .text-calculator, .text-pastel, .text-horiseon {
+    position: absolute;
+    color: white;
+    background: linear-gradient(#09203F,#537895);
+    padding: 10px;
+    width: 200px;
+    bottom: 0;
+
+}
+
+a{
+    text-decoration: none;
+     color: #A1C4FD;
+}
+
+
+/* --------footer-------- */
+footer{
+    height: 10%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.text-contact{
+    width: 20%;
+    font-size: 30px;
+    text-align: right;
+    border-right: solid black;
+    padding-right: 2.5%;
+    margin: 0 30px 0 60px;
+    box-sizing: border-box;
+}
+
+.footer-li{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-li a{
+ 
+    font-size: 20px;
+    color: #09203F;
+}
+
+/* ----------Resposive---------- */
+
+@media  (max-width:767px) {
+
+    header{
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .h1{
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .text{
+        font-size: 16px;
+    }
+    
+
+
+    #About{
+        height: 250px;
+    }
+
+
+      .h2-about{
+        font-size: 20px;
+        
+    }
+
+    #work{
+        font-size: 20px;
+
+    }
+
+    .section{
+        padding-left: 0px;
+    }
+
+    .surf-report {
+        width: 24rem;
+    }
+    
+
+
+
+
+    #contact-me, .text-contact{
+        font-size: 20px;
+    }
+
+    .footer-li a{
+        font-size: 15px;
+    }
+
+
+}
+
+@media  (max-width: 1080px) {
+
+    .section{
+        justify-content: center;
+    }
+
+    .h2-about, .text-contact{
+        font-size: 25px;
+    }
+
+    #work{
+        font-size: 25px;
+    }
+
+    .surf-report{
+        width: 29rem;
+    }
+
+    .led-wall, .calculator, .pastel-puzzels, .horiseon {
+        width: 17rem;
+    }
+    .footer-li a{
+        font-size: 15px;
+    }
+}
