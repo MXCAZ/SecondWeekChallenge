@@ -58,7 +58,7 @@ nav :hover{
     display: flex;
     align-items: flex-end;
     justify-content: end;
-    background-image: url(./images/coding.JPEG);
+    background-image: url(images/coding.JPEG);
     background-size: cover;
     background-position: center;    
 }
@@ -139,7 +139,7 @@ nav :hover{
 .surf-report{
     position: relative;
     border: 2px solid black;
-    background-image: url(./images/stack.JPEG);
+    background-image: url(images/stack.JPEG);
     background-size: cover;
     background-position: center;
     margin-right: 10px;
@@ -156,7 +156,7 @@ nav :hover{
     width: 22rem;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(./images/Node.AVIF);
+    background-image: url(images/Node.AVIF);
     background-size: cover;
     background-position: center;
 
@@ -169,7 +169,7 @@ nav :hover{
     width: 21rem;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(./images/calculator.JPEG);
+    background-image: url(images/calculator.JPEG);
     background-size: cover;
     background-position: center;
 
@@ -182,7 +182,7 @@ nav :hover{
     width: 22rem;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(./images/puzzels.JPG);
+    background-image: url(images/puzzels.JPG);
     background-size: cover;
     background-position: center;
 
@@ -195,7 +195,7 @@ nav :hover{
     width: 21rem;
     margin-top: 10px;
     margin-right: 15px;
-    background-image: url(./images/horiseon.PNG);
+    background-image: url(images/horiseon.PNG);
     background-size: cover;
     background-position: center;
 
